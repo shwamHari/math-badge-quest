@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Quest",
+  "type": "object",
+  "required": [
+    "sub_questions"
+  ],
+  "properties": {
+    "sub_questions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/SubQuestion"
+      }
+    }
+  },
+  "definitions": {
+    "SubQuestion": {
+      "type": "object",
+      "required": [
+        "a",
+        "answer",
+        "b",
+        "operation"
+      ],
+      "properties": {
+        "a": {
+          "type": "integer",
+          "format": "uint64",
+          "minimum": 0.0
+        },
+        "answer": {
+          "type": "integer",
+          "format": "uint64",
+          "minimum": 0.0
+        },
+        "b": {
+          "type": "integer",
+          "format": "uint64",
+          "minimum": 0.0
+        },
+        "operation": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
