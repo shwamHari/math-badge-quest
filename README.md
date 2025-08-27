@@ -8,6 +8,15 @@ A decentralised application (dApp) on Secret Network's Pulsar-3 testnet for gami
 - 💻 **Frontend**: React app using SecretJS for blockchain interaction, Keplr for wallet authentication, and Tailwind CSS for styling.
 - ⭐ **Features**: Solve five-question quests and earn NFT badges
 
+## Demo 🎥
+
+
+
+https://github.com/user-attachments/assets/78af9114-783c-4a89-a831-378fea44d644
+
+
+
+
 ## 👥 Roles
 - 👑 **Owner**: Adds quests via `AddQuest` (restricted to owner address).
 - 🧑 **Users**: Connect Keplr wallet, solves math quests, earns and views NFT badges.
